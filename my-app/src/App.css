@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+}
+
+.app {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #ffffff;
+  color: #333;
+}
+
+.logo {
+  font-size: 1.5em;
+}
+
+.profile {
+  display: flex;
+  align-items: center;
+}
+
+.profile-image {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.main {
+  display: flex;
+  flex: 1;
+  overflow: hidden;
+  background-color: #fafafa;
+}
+
+.sidebar {
+  width: 200px;
+  background-color: #ffffff;
+  padding: 10px;
+  overflow-y: scroll;
+  font-size:12px;
+}
+
+.sidebar::-webkit-scrollbar {
+  width: 6px; /* Width of the vertical scrollbar */
+}
+
+.sidebar::-webkit-scrollbar-thumb {
+  background-color: #e8e7e7;   /* color of the scroll thumb */
+  border-radius: 20px;       /* roundness of the scroll thumb */
+  border: 1px solid #ddfafa;  /* creates padding around scroll thumb */
+}
+
+.search-bar {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+  border: 1px solid #dde8ff;
+  border-radius: 5px;
+}
+
+.nav {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.nav-item {
+  margin: 5px 0;
+}
+
+.nav a {
+  text-decoration: none;
+  color: #333;
+  display: block;
+  padding:5px 10px;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+
+.nav a:hover {
+  background-color: #ffeeb8;
+}
+
+.nav a.active {
+  background-color: #fdce2f;
+  color: white;
+}
+
+.content {
+  flex: 1;
+  padding: 20px;
+  overflow-y: auto;
+  font-size: 13px;
+}
+
+.tabs {
+  margin-top: -10px;
+  display: flex;
+  font-size: 13px;
+}
+
+.tab {
+  padding: 5px 8px;
+  cursor: pointer;
+  background-color: #fff;
+  margin-left: 10px;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+  display: flex;
+  align-items: center;
+}
+
+.tab:hover {
+  background-color: #ffeeb8;
+}
+
+.tab.active {
+  background-color: #fdce2f;
+  color: rgb(68, 68, 68);
+}
+
+.close-tab {
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+.tab-content {
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 5px;
+}

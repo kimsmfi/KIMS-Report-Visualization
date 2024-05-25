@@ -1,0 +1,1006 @@
+[
+
+   {
+        "id": 4710,
+        "accountNo": "0001-0000-0002",
+        "externalId": "ID_LGEBJEZ",
+        "status": {},
+        "clientId": 4710,
+        "clientAccountNo": "0001-0000-0002",
+        "clientName": "Fatima Hussein",
+        "clientOfficeId": 10,
+        "loanProductId": 4710,
+        "loanProductName": "Personal Loan",
+        "loanProductDescription": "Personal loan with flexible terms",
+        "loanOfficerId": 2,
+        "loanOfficerName": "Smith, John",
+        "loanType": {
+            "id": 1,
+            "code": "accountType.individual",
+            "value": "individual"
+        },
+        "currency": {
+            "code": "USD",
+            "name": "United States Dollar",
+            "nameCode": "currency.USD",
+            "decimalPlaces": 2,
+            "displaySymbol": "$",
+            "displayLabel": "currency.USD"
+        },
+        "principal": 8000,
+        "approvedPrincipal": 8000,
+        "proposedPrincipal": 8000,
+        "termFrequency": 24,
+        "termPeriodFrequencyType": {
+            "id": 2,
+            "code": "loanTermFrequency.periodFrequencyType.months",
+            "value": "Months"
+        },
+        "numberOfRepayments": 12,
+        "repaymentEvery": 2,
+        "repaymentFrequencyType": {
+            "id": 2,
+            "code": "loanTermFrequency.periodFrequencyType.months",
+            "value": "Months"
+        },
+        "interestRatePerPeriod": 1.5,
+        "interestRateFrequencyType": {
+            "id": 2,
+            "code": "interestRateFrequency.periodFrequencyType.months",
+            "value": "Months"
+        },
+        "annualInterestRate": 18,
+        "amortizationType": {
+            "id": 1,
+            "code": "amortizationType.equal.installments",
+            "value": "Equal installments"
+        },
+        "interestType": {
+            "id": 0,
+            "code": "interestType.declining.balance",
+            "value": "Declining Balance"
+        },
+        "interestCalculationPeriodType": {},
+        "allowPartialPeriodInterestCalcualtion": true,
+        "transactionProcessingStrategyId": 1,
+        "transactionProcessingStrategyName": "Penalties, Fees, Interest, Principal order",
+        "expectedFirstRepaymentOnDate": [2001, 2, 1],
+        "timeline": {
+            "submittedOnDate": [2001, 2, 1],
+            "submittedByUsername": "admin",
+            "submittedByFirstname": "admin",
+            "submittedByLastname": "admin",
+            "expectedDisbursementDate": [2001, 2, 1],
+            "expectedMaturityDate": [2003, 2, 1]
+        },
+        "multiDisburseLoan": false,
+        "canDefineInstallmentAmount": true,
+        "canDisburse": true,
+        "canUseForTopup": false,
+        "isTopup": false,
+        "stopApplyingPenalty": false,
+        "closureLoanId": 133,
+        "inArrears": false,
+        "isNPA": false,
+        "daysInMonthType": {
+            "id": 1,
+            "code": "DaysInMonthType.actual",
+            "value": "Actual"
+        },
+        "daysInYearType": {
+            "id": 1,
+            "code": "DaysInYearType.actual",
+            "value": "Actual"
+        },
+        "isInterestRecalculationEnabled": true,
+        "recalculateInterestOnArrears": false,
+        "createStandingInstructionAtDisbursement": true,
+        "isVariableInstallmentsAllowed": true,
+        "internalRateOfReturn": 1.8,
+        "effectiveInterestRate": 1.8,
+        "repayPrincipalEvery": 1,
+        "repayInterestEvery": 1,
+        "isInDuplum": true,
+        "officeId": true,
+        "officeName": "Main Branch",
+        "originChannel": "api-integration",
+        "auditData": {
+            "createdOnTimestamp": 1634150000,
+            "createdByUsername": "Admin",
+            "lastModifiedOnTimestamp": 1634150000,
+            "lastModifiedByUsername": "Admin"
+        }
+    },
+
+    {
+        "id": 4711,
+        "accountNo": "0001-0000-0003",
+        "externalId": "ID_LGEJIEZ",
+        "status": {},
+        "clientId": 4711,
+        "clientAccountNo": "0001-000-0003",
+        "clientName": "Yusuf Khan",
+        "clientOfficeId": 10,
+        "loanProductId": 4711,
+        "loanProductName": "Business Loan",
+        "loanProductDescription": "Business loan for small enterprises",
+        "loanOfficerId": 3,
+        "loanOfficerName": "Johnson, Mary",
+        "loanType": {
+            "id": 1,
+            "code": "accountType.individual",
+            "value": "individual"
+        },
+        "currency": {
+            "code": "USD",
+            "name": "United States Dollar",
+            "nameCode": "currency.USD",
+            "decimalPlaces": 2,
+            "displaySymbol": "$",
+            "displayLabel": "currency.USD"
+        },
+        "principal": 12000,
+        "approvedPrincipal": 12000,
+        "proposedPrincipal": 12000,
+        "termFrequency": 18,
+        "termPeriodFrequencyType": {
+            "id": 2,
+            "code": "loanTermFrequency.periodFrequencyType.months",
+            "value": "Months"
+        },
+        "numberOfRepayments": 9,
+        "repaymentEvery": 2,
+        "repaymentFrequencyType": {
+            "id": 2,
+            "code": "loanTermFrequency.periodFrequencyType.months",
+            "value": "Months"
+        },
+        "interestRatePerPeriod": 1.8,
+        "interestRateFrequencyType": {
+            "id": 2,
+            "code": "interestRateFrequency.periodFrequencyType.months",
+            "value": "Months"
+        },
+        "annualInterestRate": 21.6,
+        "amortizationType": {
+            "id": 1,
+            "code": "amortizationType.equal.installments",
+            "value": "Equal installments"
+        },
+        "interestType": {
+            "id": 0,
+            "code": "interestType.declining.balance",
+            "value": "Declining Balance"
+        },
+        "interestCalculationPeriodType": {},
+        "allowPartialPeriodInterestCalcualtion": true,
+        "transactionProcessingStrategyId": 1,
+        "transactionProcessingStrategyName": "Penalties, Fees, Interest, Principal order",
+        "expectedFirstRepaymentOnDate": [2002, 3, 1],
+        "timeline": {
+            "submittedOnDate": [2002, 3, 1],
+            "submittedByUsername": "manager",
+            "submittedByFirstname": "manager",
+            "submittedByLastname": "manager",
+            "expectedDisbursementDate": [2002, 3, 1],
+            "expectedMaturityDate": [2003, 9, 1]
+        },
+        "multiDisburseLoan": true,
+        "canDefineInstallmentAmount": true,
+        "canDisburse": true,
+        "canUseForTopup": true,
+        "isTopup": true,
+        "stopApplyingPenalty": true,
+        "closureLoanId": 134,
+        "inArrears": true,
+        "isNPA": true,
+        "daysInMonthType": {
+            "id": 1,
+            "code": "DaysInMonthType.actual",
+            "value": "Actual"
+        },
+        "daysInYearType": {
+            "id": 1,
+            "code": "DaysInYearType.actual",
+            "value": "Actual"
+        },
+        "isInterestRecalculationEnabled": true,
+        "recalculateInterestOnArrears": false,
+        "createStandingInstructionAtDisbursement": true,
+        "isVariableInstallmentsAllowed": true,
+        "internalRateOfReturn": 2,
+        "effectiveInterestRate": 2,
+        "repayPrincipalEvery": 1,
+        "repayInterestEvery": 1,
+        "isInDuplum": true,
+        "officeId": true,
+        "officeName": "Branch Office",
+        "originChannel": "api-integration",
+        "auditData": {
+            "createdOnTimestamp": 1634151000,
+            "createdByUsername": "Manager",
+            "lastModifiedOnTimestamp": 1634151000,
+            "lastModifiedByUsername": "Manager"
+        }
+    },
+    {
+        "id": 4712,
+        "accountNo": "0001-0000-0004",
+        "externalId": "ID_LGEKJEZ",
+        "status": {},
+        "clientId": 4712,
+        "clientAccountNo": "0001-0000-0004",
+        "clientName": "Amina Sheikh",
+        "clientOfficeId": 10,
+        "loanProductId": 4712,
+        "loanProductName": "Car Loan",
+        "loanProductDescription": "Loan for purchasing a car",
+        "loanOfficerId": 4,
+        "loanOfficerName": "Doe, Jane",
+        "loanType": {
+            "id": 1,
+            "code": "accountType.individual",
+            "value": "individual"
+        },
+        "currency": {
+            "code": "USD",
+            "name": "United States Dollar",
+            "nameCode": "currency.USD",
+            "decimalPlaces": 2,
+            "displaySymbol": "$",
+            "displayLabel": "currency.USD"
+        },
+        "principal": 15000,
+        "approvedPrincipal": 15000,
+        "proposedPrincipal": 15000,
+        "termFrequency": 36,
+        "termPeriodFrequencyType": {
+            "id": 2,
+            "code": "loanTermFrequency.periodFrequencyType.months",
+            "value": "Months"
+        },
+        "numberOfRepayments": 18,
+        "repaymentEvery": 2,
+        "repaymentFrequencyType": {
+            "id": 2,
+            "code": "loanTermFrequency.periodFrequencyType.months",
+            "value": "Months"
+        },
+        "interestRatePerPeriod": 1.2,
+        "interestRateFrequencyType": {
+            "id": 2,
+            "code": "interestRateFrequency.periodFrequencyType.months",
+            "value": "Months"
+        },
+        "annualInterestRate": 14.4,
+        "amortizationType": {
+            "id": 1,
+            "code": "amortizationType.equal.installments",
+            "value": "Equal installments"
+        },
+        "interestType": {
+            "id": 0,
+            "code": "interestType.declining.balance",
+            "value": "Declining Balance"
+        },
+        "interestCalculationPeriodType": {},
+        "allowPartialPeriodInterestCalcualtion": true,
+        "transactionProcessingStrategyId": 1,
+        "transactionProcessingStrategyName": "Penalties, Fees, Interest, Principal order",
+        "expectedFirstRepaymentOnDate": [2003, 4, 1],
+        "timeline": {
+            "submittedOnDate": [2003, 4, 1],
+            "submittedByUsername": "clerk",
+            "submittedByFirstname": "clerk",
+            "submittedByLastname": "clerk",
+            "expectedDisbursementDate": [2003, 4, 1],
+            "expectedMaturityDate": [2006, 4, 1]
+        },
+        "multiDisburseLoan": false,
+        "canDefineInstallmentAmount": true,
+        "canDisburse": true,
+        "canUseForTopup": false,
+        "isTopup": false,
+        "stopApplyingPenalty": false,
+        "closureLoanId": 135,
+        "inArrears": false,
+        "isNPA": false,
+        "daysInMonthType": {
+            "id": 1,
+            "code": "DaysInMonthType.actual",
+            "value": "Actual"
+        },
+        "daysInYearType": {
+            "id": 1,
+            "code": "DaysInYearType.actual",
+            "value": "Actual"
+        },
+        "isInterestRecalculationEnabled": true,
+        "recalculateInterestOnArrears": false,
+        "createStandingInstructionAtDisbursement": true,
+        "isVariableInstallmentsAllowed": true,
+        "internalRateOfReturn": 1.4,
+        "effectiveInterestRate": 1.4,
+        "repayPrincipalEvery": 1,
+        "repayInterestEvery": 1,
+        "isInDuplum": true,
+        "officeId": true,
+        "officeName": "Branch Office",
+        "originChannel": "api-integration",
+        "auditData": {
+            "createdOnTimestamp": 1634152000,
+            "createdByUsername": "Clerk",
+            "lastModifiedOnTimestamp": 1634152000,
+            "lastModifiedByUsername": "Clerk"
+        }
+    },
+    {
+        "id": 4713,
+        "accountNo": "0001-0000-0005",
+        "externalId": "ID_LGELJEZ",
+        "status": {},
+        "clientId": 4713,
+        "clientAccountNo": "0001-0000-0005",
+        "clientName": "Hassan Ali",
+        "clientOfficeId": 10,
+        "loanProductId": 4713,
+        "loanProductName": "Education Loan",
+        "loanProductDescription": "Loan for education expenses",
+        "loanOfficerId": 5,
+        "loanOfficerName": "Brown, Alex",
+        "loanType": {
+            "id": 1,
+            "code": "accountType.individual",
+            "value": "individual"
+        },
+        "currency": {
+            "code": "USD",
+            "name": "United States Dollar",
+            "nameCode": "currency.USD",
+            "decimalPlaces": 2,
+            "displaySymbol": "$",
+            "displayLabel": "currency.USD"
+        },
+        "principal": 7000,
+        "approvedPrincipal": 7000,
+        "proposedPrincipal": 7000,
+        "termFrequency": 24,
+        "termPeriodFrequencyType": {
+            "id": 2,
+            "code": "loanTermFrequency.periodFrequencyType.months",
+            "value": "Months"
+        },
+        "numberOfRepayments": 12,
+        "repaymentEvery": 2,
+        "repaymentFrequencyType": {
+            "id": 2,
+            "code": "loanTermFrequency.periodFrequencyType.months",
+            "value": "Months"
+        },
+        "interestRatePerPeriod": 1.7,
+        "interestRateFrequencyType": {
+            "id": 2,
+            "code": "interestRateFrequency.periodFrequencyType.months",
+            "value": "Months"
+        },
+        "annualInterestRate": 20.4,
+        "amortizationType": {
+            "id": 1,
+            "code": "amortizationType.equal.installments",
+            "value": "Equal installments"
+        },
+        "interestType": {
+            "id": 0,
+            "code": "interestType.declining.balance",
+            "value": "Declining Balance"
+        },
+        "interestCalculationPeriodType": {},
+        "allowPartialPeriodInterestCalcualtion": true,
+        "transactionProcessingStrategyId": 1,
+        "transactionProcessingStrategyName": "Penalties, Fees, Interest, Principal order",
+        "expectedFirstRepaymentOnDate": [2004, 5, 1],
+        "timeline": {
+            "submittedOnDate": [2004, 5, 1],
+            "submittedByUsername": "clerk",
+            "submittedByFirstname": "clerk",
+            "submittedByLastname": "clerk",
+            "expectedDisbursementDate": [2004, 5, 1],
+            "expectedMaturityDate": [2006, 5, 1]
+        },
+        "multiDisburseLoan": false,
+        "canDefineInstallmentAmount": true,
+        "canDisburse": true,
+        "canUseForTopup": false,
+        "isTopup": false,
+        "stopApplyingPenalty": false,
+        "closureLoanId": 136,
+        "inArrears": false,
+        "isNPA": false,
+        "daysInMonthType": {
+            "id": 1,
+            "code": "DaysInMonthType.actual",
+            "value": "Actual"
+        },
+        "daysInYearType": {
+            "id": 1,
+            "code": "DaysInYearType.actual",
+            "value": "Actual"
+        },
+        "isInterestRecalculationEnabled": true,
+        "recalculateInterestOnArrears": false,
+        "createStandingInstructionAtDisbursement": true,
+        "isVariableInstallmentsAllowed": true,
+        "internalRateOfReturn": 2.1,
+        "effectiveInterestRate": 2.1,
+        "repayPrincipalEvery": 1,
+        "repayInterestEvery": 1,
+        "isInDuplum": true,
+        "officeId": true,
+        "officeName": "Main Branch",
+        "originChannel": "api-integration",
+        "auditData": {
+            "createdOnTimestamp": 1634153000,
+            "createdByUsername": "Clerk",
+            "lastModifiedOnTimestamp": 1634153000,
+            "lastModifiedByUsername": "Clerk"
+        }
+    },
+    {
+        "id": 4714,
+        "accountNo": "0001-0000-0006",
+        "externalId": "ID_LGEMJEZ",
+        "status": {},
+        "clientId": 4714,
+        "clientAccountNo": "0001-0000-0006",
+        "clientName": "Layla Abdi",
+        "clientOfficeId": 10,
+        "loanProductId": 4714,
+        "loanProductName": "Home Loan",
+        "loanProductDescription": "Loan for purchasing a home",
+        "loanOfficerId": 6,
+        "loanOfficerName": "White, Emma",
+        "loanType": {
+            "id": 1,
+            "code": "accountType.individual",
+            "value": "individual"
+        },
+        "currency": {
+            "code": "USD",
+            "name": "United States Dollar",
+            "nameCode": "currency.USD",
+            "decimalPlaces": 2,
+            "displaySymbol": "$",
+            "displayLabel": "currency.USD"
+        },
+        "principal": 20000,
+        "approvedPrincipal": 20000,
+        "proposedPrincipal": 20000,
+        "termFrequency": 60,
+        "termPeriodFrequencyType": {
+            "id": 2,
+            "code": "loanTermFrequency.periodFrequencyType.months",
+            "value": "Months"
+        },
+        "numberOfRepayments": 30,
+        "repaymentEvery": 2,
+        "repaymentFrequencyType": {
+            "id": 2,
+            "code": "loanTermFrequency.periodFrequencyType.months",
+            "value": "Months"
+        },
+        "interestRatePerPeriod": 0.9,
+        "interestRateFrequencyType": {
+            "id": 2,
+            "code": "interestRateFrequency.periodFrequencyType.months",
+            "value": "Months"
+        },
+        "annualInterestRate": 10.8,
+        "amortizationType": {
+            "id": 1,
+            "code": "amortizationType.equal.installments",
+            "value": "Equal installments"
+        },
+        "interestType": {
+            "id": 0,
+            "code": "interestType.declining.balance",
+            "value": "Declining Balance"
+        },
+        "interestCalculationPeriodType": {},
+        "allowPartialPeriodInterestCalcualtion": true,
+        "transactionProcessingStrategyId": 1,
+        "transactionProcessingStrategyName": "Penalties, Fees, Interest, Principal order",
+        "expectedFirstRepaymentOnDate": [2005, 6, 1],
+        "timeline": {
+            "submittedOnDate": [2005, 6, 1],
+            "submittedByUsername": "manager",
+            "submittedByFirstname": "manager",
+            "submittedByLastname": "manager",
+            "expectedDisbursementDate": [2005, 6, 1],
+            "expectedMaturityDate": [2010, 6, 1]
+        },
+        "multiDisburseLoan": false,
+        "canDefineInstallmentAmount": true,
+        "canDisburse": true,
+        "canUseForTopup": false,
+        "isTopup": false,
+        "stopApplyingPenalty": false,
+        "closureLoanId": 137,
+        "inArrears": false,
+        "isNPA": false,
+        "daysInMonthType": {
+            "id": 1,
+            "code": "DaysInMonthType.actual",
+            "value": "Actual"
+        },
+        "daysInYearType": {
+            "id": 1,
+            "code": "DaysInYearType.actual",
+            "value": "Actual"
+        },
+        "isInterestRecalculationEnabled": true,
+        "recalculateInterestOnArrears": false,
+        "createStandingInstructionAtDisbursement": true,
+        "isVariableInstallmentsAllowed": true,
+        "internalRateOfReturn": 1.3,
+        "effectiveInterestRate": 1.3,
+        "repayPrincipalEvery": 1,
+        "repayInterestEvery": 1,
+        "isInDuplum": true,
+        "officeId": true,
+        "officeName": "Head Office",
+        "originChannel": "api-integration",
+        "auditData": {
+            "createdOnTimestamp": 1634154000,
+            "createdByUsername": "Manager",
+            "lastModifiedOnTimestamp": 1634154000,
+            "lastModifiedByUsername": "Manager"
+        }
+    },
+    {
+        "id": 4715,
+        "accountNo": "0001-0000-0007",
+        "externalId": "ID_LGENJEZ",
+        "status": {},
+        "clientId": 4715,
+        "clientAccountNo": "0001-0000-0007",
+        "clientName": "Omar Farah",
+        "clientOfficeId": 10,
+        "loanProductId": 4715,
+        "loanProductName": "Agricultural Loan",
+        "loanProductDescription": "Loan for agricultural purposes",
+        "loanOfficerId": 7,
+        "loanOfficerName": "Green, Lucas",
+        "loanType": {
+            "id": 1,
+            "code": "accountType.individual",
+            "value": "individual"
+        },
+        "currency": {
+            "code": "USD",
+            "name": "United States Dollar",
+            "nameCode": "currency.USD",
+            "decimalPlaces": 2,
+            "displaySymbol": "$",
+            "displayLabel": "currency.USD"
+        },
+        "principal": 9000,
+        "approvedPrincipal": 9000
+
+,
+        "proposedPrincipal": 9000,
+        "termFrequency": 12,
+        "termPeriodFrequencyType": {
+            "id": 2,
+            "code": "loanTermFrequency.periodFrequencyType.months",
+            "value": "Months"
+        },
+        "numberOfRepayments": 6,
+        "repaymentEvery": 2,
+        "repaymentFrequencyType": {
+            "id": 2,
+            "code": "loanTermFrequency.periodFrequencyType.months",
+            "value": "Months"
+        },
+        "interestRatePerPeriod": 1.5,
+        "interestRateFrequencyType": {
+            "id": 2,
+            "code": "interestRateFrequency.periodFrequencyType.months",
+            "value": "Months"
+        },
+        "annualInterestRate": 18,
+        "amortizationType": {
+            "id": 1,
+            "code": "amortizationType.equal.installments",
+            "value": "Equal installments"
+        },
+        "interestType": {
+            "id": 0,
+            "code": "interestType.declining.balance",
+            "value": "Declining Balance"
+        },
+        "interestCalculationPeriodType": {},
+        "allowPartialPeriodInterestCalcualtion": true,
+        "transactionProcessingStrategyId": 1,
+        "transactionProcessingStrategyName": "Penalties, Fees, Interest, Principal order",
+        "expectedFirstRepaymentOnDate": [2006, 7, 1],
+        "timeline": {
+            "submittedOnDate": [2006, 7, 1],
+            "submittedByUsername": "officer",
+            "submittedByFirstname": "officer",
+            "submittedByLastname": "officer",
+            "expectedDisbursementDate": [2006, 7, 1],
+            "expectedMaturityDate": [2007, 7, 1]
+        },
+        "multiDisburseLoan": false,
+        "canDefineInstallmentAmount": true,
+        "canDisburse": true,
+        "canUseForTopup": false,
+        "isTopup": false,
+        "stopApplyingPenalty": false,
+        "closureLoanId": 138,
+        "inArrears": false,
+        "isNPA": false,
+        "daysInMonthType": {
+            "id": 1,
+            "code": "DaysInMonthType.actual",
+            "value": "Actual"
+        },
+        "daysInYearType": {
+            "id": 1,
+            "code": "DaysInYearType.actual",
+            "value": "Actual"
+        },
+        "isInterestRecalculationEnabled": true,
+        "recalculateInterestOnArrears": false,
+        "createStandingInstructionAtDisbursement": true,
+        "isVariableInstallmentsAllowed": true,
+        "internalRateOfReturn": 1.7,
+        "effectiveInterestRate": 1.7,
+        "repayPrincipalEvery": 1,
+        "repayInterestEvery": 1,
+        "isInDuplum": true,
+        "officeId": true,
+        "officeName": "Branch Office",
+        "originChannel": "api-integration",
+        "auditData": {
+            "createdOnTimestamp": 1634155000,
+            "createdByUsername": "Officer",
+            "lastModifiedOnTimestamp": 1634155000,
+            "lastModifiedByUsername": "Officer"
+        }
+    },
+    {
+        "id": 4716,
+        "accountNo": "0001-0000-0008",
+        "externalId": "ID_LGEOJEZ",
+        "status": {},
+        "clientId": 4716,
+        "clientAccountNo": "0001-0000-0008",
+        "clientName": "Sara Hassan",
+        "clientOfficeId": 10,
+        "loanProductId": 4716,
+        "loanProductName": "Travel Loan",
+        "loanProductDescription": "Loan for travel expenses",
+        "loanOfficerId": 8,
+        "loanOfficerName": "Blue, Grace",
+        "loanType": {
+            "id": 1,
+            "code": "accountType.individual",
+            "value": "individual"
+        },
+        "currency": {
+            "code": "USD",
+            "name": "United States Dollar",
+            "nameCode": "currency.USD",
+            "decimalPlaces": 2,
+            "displaySymbol": "$",
+            "displayLabel": "currency.USD"
+        },
+        "principal": 6000,
+        "approvedPrincipal": 6000,
+        "proposedPrincipal": 6000,
+        "termFrequency": 6,
+        "termPeriodFrequencyType": {
+            "id": 2,
+            "code": "loanTermFrequency.periodFrequencyType.months",
+            "value": "Months"
+        },
+        "numberOfRepayments": 3,
+        "repaymentEvery": 2,
+        "repaymentFrequencyType": {
+            "id": 2,
+            "code": "loanTermFrequency.periodFrequencyType.months",
+            "value": "Months"
+        },
+        "interestRatePerPeriod": 1.2,
+        "interestRateFrequencyType": {
+            "id": 2,
+            "code": "interestRateFrequency.periodFrequencyType.months",
+            "value": "Months"
+        },
+        "annualInterestRate": 14.4,
+        "amortizationType": {
+            "id": 1,
+            "code": "amortizationType.equal.installments",
+            "value": "Equal installments"
+        },
+        "interestType": {
+            "id": 0,
+            "code": "interestType.declining.balance",
+            "value": "Declining Balance"
+        },
+        "interestCalculationPeriodType": {},
+        "allowPartialPeriodInterestCalcualtion": true,
+        "transactionProcessingStrategyId": 1,
+        "transactionProcessingStrategyName": "Penalties, Fees, Interest, Principal order",
+        "expectedFirstRepaymentOnDate": [2007, 8, 1],
+        "timeline": {
+            "submittedOnDate": [2007, 8, 1],
+            "submittedByUsername": "admin",
+            "submittedByFirstname": "admin",
+            "submittedByLastname": "admin",
+            "expectedDisbursementDate": [2007, 8, 1],
+            "expectedMaturityDate": [2008, 2, 1]
+        },
+        "multiDisburseLoan": false,
+        "canDefineInstallmentAmount": true,
+        "canDisburse": true,
+        "canUseForTopup": false,
+        "isTopup": false,
+        "stopApplyingPenalty": false,
+        "closureLoanId": 139,
+        "inArrears": false,
+        "isNPA": false,
+        "daysInMonthType": {
+            "id": 1,
+            "code": "DaysInMonthType.actual",
+            "value": "Actual"
+        },
+        "daysInYearType": {
+            "id": 1,
+            "code": "DaysInYearType.actual",
+            "value": "Actual"
+        },
+        "isInterestRecalculationEnabled": true,
+        "recalculateInterestOnArrears": false,
+        "createStandingInstructionAtDisbursement": true,
+        "isVariableInstallmentsAllowed": true,
+        "internalRateOfReturn": 1.5,
+        "effectiveInterestRate": 1.5,
+        "repayPrincipalEvery": 1,
+        "repayInterestEvery": 1,
+        "isInDuplum": true,
+        "officeId": true,
+        "officeName": "Main Branch",
+        "originChannel": "api-integration",
+        "auditData": {
+            "createdOnTimestamp": 1634156000,
+            "createdByUsername": "Admin",
+            "lastModifiedOnTimestamp": 1634156000,
+            "lastModifiedByUsername": "Admin"
+        }
+    },
+    {
+        "id": 4717,
+        "accountNo": "0001-0000-0009",
+        "externalId": "ID_LGEPJEZ",
+        "status": {},
+        "clientId": 4717,
+        "clientAccountNo": "0001-0000-0009",
+        "clientName": "Muhammad Bilal",
+        "clientOfficeId": 10,
+        "loanProductId": 4717,
+        "loanProductName": "Medical Loan",
+        "loanProductDescription": "Loan for medical expenses",
+        "loanOfficerId": 9,
+        "loanOfficerName": "Red, Daniel",
+        "loanType": {
+            "id": 1,
+            "code": "accountType.individual",
+            "value": "individual"
+        },
+        "currency": {
+            "code": "USD",
+            "name": "United States Dollar",
+            "nameCode": "currency.USD",
+            "decimalPlaces": 2,
+            "displaySymbol": "$",
+            "displayLabel": "currency.USD"
+        },
+        "principal": 10000,
+        "approvedPrincipal": 10000,
+        "proposedPrincipal": 10000,
+        "termFrequency": 24,
+        "termPeriodFrequencyType": {
+            "id": 2,
+            "code": "loanTermFrequency.periodFrequencyType.months",
+            "value": "Months"
+        },
+        "numberOfRepayments": 12,
+        "repaymentEvery": 2,
+        "repaymentFrequencyType": {
+            "id": 2,
+            "code": "loanTermFrequency.periodFrequencyType.months",
+            "value": "Months"
+        },
+        "interestRatePerPeriod": 1.4,
+        "interestRateFrequencyType": {
+            "id": 2,
+            "code": "interestRateFrequency.periodFrequencyType.months",
+            "value": "Months"
+        },
+        "annualInterestRate": 16.8,
+        "amortizationType": {
+            "id": 1,
+            "code": "amortizationType.equal.installments",
+            "value": "Equal installments"
+        },
+        "interestType": {
+            "id": 0,
+            "code": "interestType.declining.balance",
+            "value": "Declining Balance"
+        },
+        "interestCalculationPeriodType": {},
+        "allowPartialPeriodInterestCalcualtion": true,
+        "transactionProcessingStrategyId": 1,
+        "transactionProcessingStrategyName": "Penalties, Fees, Interest, Principal order",
+        "expectedFirstRepaymentOnDate": [2008, 9, 1],
+        "timeline": {
+            "submittedOnDate": [2008, 9, 1],
+            "submittedByUsername": "clerk",
+            "submittedByFirstname": "clerk",
+            "submittedByLastname": "clerk",
+            "expectedDisbursementDate": [2008, 9, 1],
+            "expectedMaturityDate": [2010, 9, 1]
+        },
+        "multiDisburseLoan": false,
+        "canDefineInstallmentAmount": true,
+        "canDisburse": true,
+        "canUseForTopup": false,
+        "isTopup": false,
+        "stopApplyingPenalty": false,
+        "closureLoanId": 140,
+        "inArrears": false,
+        "isNPA": false,
+        "daysInMonthType": {
+            "id": 1,
+            "code": "DaysInMonthType.actual",
+            "value": "Actual"
+        },
+        "daysInYearType": {
+            "id": 1,
+            "code": "DaysInYearType.actual",
+            "value": "Actual"
+        },
+        "isInterestRecalculationEnabled": true,
+        "recalculateInterestOnArrears": false,
+        "createStandingInstructionAtDisbursement": true,
+        "isVariableInstallmentsAllowed": true,
+        "internalRateOfReturn": 1.8,
+        "effectiveInterestRate": 1.8,
+        "repayPrincipalEvery": 1,
+        "repayInterestEvery": 1,
+        "isInDuplum": true,
+        "officeId": true,
+        "officeName": "Head Office",
+        "originChannel": "api-integration",
+        "auditData": {
+            "createdOnTimestamp": 1634157000,
+            "createdByUsername": "Clerk",
+            "lastModifiedOnTimestamp": 1634157000,
+            "lastModifiedByUsername": "Clerk"
+        }
+    },
+    {
+        "id": 4718,
+        "accountNo": "0001-0000-0010",
+        "externalId": "ID_LGEQJEZ",
+        "status": {},
+        "clientId": 4718,
+        "clientAccountNo": "0001-0000-0010",
+        "clientName": "Zainab Ali",
+        "clientOfficeId": 10,
+        "loanProductId": 4718,
+        "loanProductName": "Wedding Loan",
+        "loanProductDescription": "Loan for wedding expenses",
+        "loanOfficerId": 10,
+        "loanOfficerName": "Yellow, Sarah",
+        "loanType": {
+            "id": 1,
+            "code": "accountType.individual",
+            "value": "individual"
+        },
+        "currency": {
+            "code": "USD",
+            "name": "United States Dollar",
+            "nameCode": "currency.USD",
+            "decimalPlaces": 2,
+            "displaySymbol": "$",
+            "displayLabel": "currency.USD"
+        },
+        "principal": 11000,
+        "approvedPrincipal": 11000,
+        "proposedPrincipal": 11000,
+        "termFrequency": 12,
+        "termPeriodFrequencyType": {
+            "id": 2,
+            "code": "loanTermFrequency.periodFrequencyType.months",
+            "value": "Months"
+        },
+        "numberOfRepayments": 6,
+        "repaymentEvery": 2,
+        "repaymentFrequencyType": {
+            "id": 2,
+            "code": "loanTermFrequency.periodFrequencyType.months",
+            "value": "Months"
+        },
+        "interestRatePerPeriod": 1.6,
+        "interestRateFrequencyType": {
+            "id": 2,
+            "code": "interestRateFrequency.periodFrequencyType.months",
+            "value": "Months"
+        },
+        "annualInterestRate": 19.2,
+        "amortizationType": {
+            "id": 1,
+            "code": "amortizationType.equal.installments",
+            "value": "Equal installments"
+        },
+        "interestType": {
+            "id": 0,
+            "code": "interestType.declining.balance",
+            "value": "Declining Balance"
+        },
+        "interestCalculationPeriodType": {},
+        "allowPartialPeriodInterestCalcualtion": true,
+        "transactionProcessingStrategyId": 1,
+        "transactionProcessingStrategyName": "Penalties, Fees, Interest, Principal order",
+        "expectedFirstRepaymentOnDate": [2009, 10, 1],
+        "timeline": {
+            "submittedOnDate": [2009, 10, 1],
+            "submittedByUsername": "admin",
+            "submittedByFirstname": "admin",
+            "submittedByLastname": "admin",
+            "expectedDisbursementDate": [2009, 10, 1],
+            "expectedMaturityDate": [2010, 10, 1]
+        },
+        "multiDisburseLoan": false,
+        "canDefineInstallmentAmount": true,
+        "canDisburse": true,
+        "canUseForTopup": false,
+        "isTopup": false,
+        "stopApplyingPenalty": false,
+        "closureLoanId": 141,
+        "inArrears": false,
+        "isNPA": false,
+        "daysInMonthType": {
+            "id": 1,
+            "code": "DaysInMonthType.actual",
+            "value": "Actual"
+        },
+        "daysInYearType": {
+            "id": 1,
+            "code": "DaysInYearType.actual",
+            "value": "Actual"
+        },
+        "isInterestRecalculationEnabled": true,
+        "recalculateInterestOnArrears": false,
+        "createStandingInstructionAtDisbursement": true,
+        "isVariableInstallmentsAllowed": true,
+        "internalRateOfReturn": 2,
+        "effectiveInterestRate": 2,
+        "repayPrincipalEvery": 1,
+        "repayInterestEvery": 1,
+        "isInDuplum": true,
+        "officeId": true,
+        "officeName": "Branch Office",
+        "originChannel": "api-integration",
+        "auditData": {
+            "createdOnTimestamp": 1634158000,
+            "createdByUsername": "Admin",
+            "lastModifiedOnTimestamp": 1634158000,
+            "lastModifiedByUsername": "Admin"
+        }
+    }
+
+]
